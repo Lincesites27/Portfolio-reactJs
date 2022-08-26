@@ -1,0 +1,33 @@
+.nav{
+ background-color: #F6EFFF;
+ width: 100%;
+ padding:20px 0;
+}
+
+ .container{
+    display: flex;
+    justify-content: space-between;
+    width: 1216px;
+    margin: 0 auto;
+    align-items: center;
+} 
+
+.logo img{
+    width: 120px;
+}
+
+.categorias ul{
+    display: flex;
+    list-style: none;
+}
+
+.categorias ul li{
+    margin-left: 25px;
+    color: #440099;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 15px;
+}
+.categorias li:hover{
+    border-bottom: 3px solid  #440099;
+}

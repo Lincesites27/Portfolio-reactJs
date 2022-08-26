@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 1216px;
+    margin: 72px auto;
+    align-items: top;
+} 
+
+.container h1 {
+    color: #6420CD;
+    font-size: 42px;
+}
+.row1{
+    width: 50%;
+}
+.row2{
+    width: 50%;
+}
+
+.row2 img{
+    width: 100%;
+}
+
+.container h2 {
+    margin-top: 15px;
+    font-size: 28px;
+    color: #525252;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.container p{
+    margin-top: 15px;
+    font-size: 28px;
+    color: #525252;
+    font-weight: 500;
+    line-height: 32px;
+}
