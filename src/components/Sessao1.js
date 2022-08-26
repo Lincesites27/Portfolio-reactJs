@@ -13,7 +13,7 @@ const Sessao1 = () => {
         </div> 
 
         <div className={styles.row2}>
-          <img src={img} alt="" />
+          <img src={img} alt="imagemLince" />
         </div>
 
 
