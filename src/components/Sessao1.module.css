@@ -22,7 +22,8 @@
 }
 
 .container h2 {
-    margin-top: 15px;
+    margin-top: 48px;
+    margin-right: 24px;
     font-size: 28px;
     color: #525252;
     font-weight: 500;
@@ -30,9 +31,32 @@
 }
 
 .container p{
-    margin-top: 15px;
-    font-size: 28px;
+    margin-top: 16px;
+    margin-right: 24px;
+    font-size: 24px;
     color: #525252;
     font-weight: 500;
     line-height: 32px;
+}
+.btn{
+    margin-top: 48px;
+    background-color: #440099;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: 1px solid #440099;
+    border-radius: 4px;
+    animation:animation linear 0.8s infinite;
+    cursor: pointer;
+}
+@keyframes animation {
+ 0%{
+    transform: scale(1);
+ }
+ 50%{
+    transform: scale(1.1);
+ }
+ 100%{
+    transform: scale(1);
+ }
 }
